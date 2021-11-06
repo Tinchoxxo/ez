@@ -24,11 +24,6 @@ const {
     MediaConnInfo,
     DEFAULT_ORIGIN,
 } = require("@adiwajshing/baileys")
-import { EventEmitter } from 'events'
-import KeyedDB from '@adiwajshing/keyed-db'
-import { STATUS_CODES } from 'http'
-import { Agent } from 'https'
-import pino from 'pino'
 
 const logger = pino({ prettyPrint: { levelFirst: true, ignore: 'hostname', translateTime: true },  prettifier: require('pino-pretty') })
 
