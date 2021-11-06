@@ -7,8 +7,6 @@
 //============ Samu330 ============\\
 
 /////////////////CALMA
-import Encoder from '../Binary/Encoder'
-import Decoder from '../Binary/Decoder'
 import got, { Method } from 'got'
 import {
     AuthenticationCredentials,
