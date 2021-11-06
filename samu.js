@@ -6,7 +6,6 @@
 //   creditos:
 //   _MankBarBar & Samu & LolHuman_
 //============ Samu330 ============\\
-
 const { 
     AuthenticationCredentials,
     WAUser,
@@ -24,7 +23,7 @@ const {
     WAConnectOptions,
     MediaConnInfo,
     DEFAULT_ORIGIN,
-} from './Constants'
+} = require("@adiwajshing/baileys")
 import { EventEmitter } from 'events'
 import KeyedDB from '@adiwajshing/keyed-db'
 import { STATUS_CODES } from 'http'
