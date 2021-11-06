@@ -6,8 +6,6 @@
 //   _MankBarBar & Samu & LolHuman_
 //============ Samu330 ============\\
 
-/////////////////CALMA
-import got, { Method } from 'got'
 import {
     AuthenticationCredentials,
     WAUser,
