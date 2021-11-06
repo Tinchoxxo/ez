@@ -1,3 +1,4 @@
+
 //============ NyanBot ============\\
 // + Favor de mantener este codigo
 //   tal y como esta.
@@ -6,7 +7,7 @@
 //   _MankBarBar & Samu & LolHuman_
 //============ Samu330 ============\\
 
-import {
+const { 
     AuthenticationCredentials,
     WAUser,
     WANode,
