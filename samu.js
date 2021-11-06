@@ -7,12 +7,14 @@
 //============ Samu330 ============\\
 
 /////////////////CALMA
+const {
 import WS from 'ws'
 import * as fs from 'fs'
 import * as Utils from './Utils'
 import Encoder from '../Binary/Encoder'
 import Decoder from '../Binary/Decoder'
 import got, { Method } from 'got'
+} = require("@adiwajshing/baileys")
 import {
     AuthenticationCredentials,
     WAUser,
