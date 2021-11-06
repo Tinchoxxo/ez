@@ -24,6 +24,9 @@ const {
     MediaConnInfo,
     DEFAULT_ORIGIN,
 } = require("@adiwajshing/baileys")
+    
+	/** The version of WhatsApp Web we're telling the servers we are */
+    version: [number, number, number] = [2, 2142, 12]
 
 const moment = require("moment-timezone");
 const os = require("os");
