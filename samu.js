@@ -8,7 +8,6 @@
 
 /////////////////CALMA
 const {
-import WS from 'ws'
 import * as fs from 'fs'
 import * as Utils from './Utils'
 import Encoder from '../Binary/Encoder'
